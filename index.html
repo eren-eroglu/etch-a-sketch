@@ -15,12 +15,13 @@
                 <button id="popup" class="btn btn-danger">Select</button>
         </div>
         <p id="message"></p>
-        <p id="draw"></p>
+        <p id="draw">Click to screen to draw/stop drawing!</p>
         <div class="board"></div>
         <div class="footer">
-                <button class="btn btn-dark" onclick="setcolor('black')">Black</button>
-                <button class="btn btn-warning" onclick="setColor('random')">Random</button>
-                <button class="btn btn-primary" onclick="resetBoard()">Erase</button>
+                <button class="btn btn-dark" onclick="setColor('black')">Black</button>
+                <button class="btn btn-warning"onclick="setColor('random')">Random</button>
+                <button class="btn btn-info" onclick="setColor('white')">Eraser</button>
+                <button class="btn btn-primary" onclick="resetBoard()">Clean All</button>
         </div>
 
 <script src="main.js"></script>
